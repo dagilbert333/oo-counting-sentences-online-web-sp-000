@@ -18,6 +18,7 @@ class String
     
     sentences = self.split("." || "?" || "!")
     if sentences.include?("")
+      
     sentences.count
   end
 end
