@@ -19,6 +19,7 @@ class String
     sentences.each do |value|  
       if value.include?("")
         sentences.delete_at(value)
+      end
     sentences.count
   end
 end
