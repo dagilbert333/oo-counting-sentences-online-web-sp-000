@@ -18,7 +18,7 @@ class String
     sentences = self.split("." || "?" || "!")
     sentences.each do |value|  
       if value.include?("")
-        sentences.
+        sentences.delete_at(value)
     sentences.count
   end
 end
