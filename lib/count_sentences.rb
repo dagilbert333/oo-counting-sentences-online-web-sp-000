@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     
-    sentences = self.split("." || "?" || "!").reject(&:empty?)
+    sentences = self.split("." || "?" || "!")
     sentences.count
   end
 end
